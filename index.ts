@@ -7,7 +7,7 @@ import commentController from "./controllers/commentController";
 import authorController from "./controllers/authorController";
 
 
-mongoose.connect("mongodb+srv://annakarutina:tNYEZd14TD0RsaFf@cluster0.avhbrao.mongodb.net/test");
+mongoose.connect("mongodb+srv://saartauri:suemasuema@cluster0.xlqpkpr.mongodb.net/");
 const database = mongoose.connection;
 
 database.on('error', (error) => {
